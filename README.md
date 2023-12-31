@@ -1,7 +1,5 @@
 <h1>Python Snake Game 🐍 </h1>
 
-[snake_game_video](/snake_game_video.mov)
-
 <h2> Description</h2>
 
 
