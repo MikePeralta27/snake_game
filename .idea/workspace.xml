@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bd13045-b561-4caa-892b-67c596440fd8" name="Changes" comment="Add collision with snake tail function">
+    <list default="true" id="5bd13045-b561-4caa-892b-67c596440fd8" name="Changes" comment="Refactoring code to use python slicing.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food.py" beforeDir="false" afterPath="$PROJECT_DIR$/food.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704055591283</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Refactoring code to use python slicing.">
+      <option name="closed" value="true" />
+      <created>1704056732137</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1704056732137</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -223,7 +230,8 @@
     <MESSAGE value="Create detect collision with the wall Function." />
     <MESSAGE value="Get the snake to extend when eating food" />
     <MESSAGE value="Add collision with snake tail function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add collision with snake tail function" />
+    <MESSAGE value="Refactoring code to use python slicing." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring code to use python slicing." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
