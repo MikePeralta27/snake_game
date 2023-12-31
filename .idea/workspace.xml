@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bd13045-b561-4caa-892b-67c596440fd8" name="Changes" comment="Add collision with food logic to move the food to a random location when collision with snake head.">
-      <change afterPath="$PROJECT_DIR$/scoreboard.py" afterDir="false" />
+    <list default="true" id="5bd13045-b561-4caa-892b-67c596440fd8" name="Changes" comment="Create scoreboard class to inheritance from Turtle class and modify attributes to display score in the screen">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -153,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704049078733</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Create scoreboard class to inheritance from Turtle class and modify attributes to display score in the screen">
+      <option name="closed" value="true" />
+      <created>1704053617871</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1704053617871</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -187,7 +194,8 @@
     <MESSAGE value="Add snake move adding methods to listen on keys to move the snake." />
     <MESSAGE value="Add Food class and inheritance from Turtle class initializing attributes and modifying turtle attributes for the food subclass" />
     <MESSAGE value="Add collision with food logic to move the food to a random location when collision with snake head." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add collision with food logic to move the food to a random location when collision with snake head." />
+    <MESSAGE value="Create scoreboard class to inheritance from Turtle class and modify attributes to display score in the screen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create scoreboard class to inheritance from Turtle class and modify attributes to display score in the screen" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
