@@ -14,6 +14,8 @@ class Snake:
         self.segments = []
         self.create_snake()
         self.head = self.segments[0]
+        self.head.shape("triangle")
+        self.head.color("green")
 
     def create_snake(self) -> None:
         for position in STARTING_POSITION:
