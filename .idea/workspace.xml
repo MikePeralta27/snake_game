@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bd13045-b561-4caa-892b-67c596440fd8" name="Changes" comment="Create detect collision with the wall Function.">
+    <list default="true" id="5bd13045-b561-4caa-892b-67c596440fd8" name="Changes" comment="Get the snake to extend when eating food">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snake.py" beforeDir="false" afterPath="$PROJECT_DIR$/snake.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704054511063</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Get the snake to extend when eating food">
+      <option name="closed" value="true" />
+      <created>1704054965799</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1704054965799</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,7 +212,8 @@
     <MESSAGE value="Add collision with food logic to move the food to a random location when collision with snake head." />
     <MESSAGE value="Create scoreboard class to inheritance from Turtle class and modify attributes to display score in the screen" />
     <MESSAGE value="Create detect collision with the wall Function." />
-    <option name="LAST_COMMIT_MESSAGE" value="Create detect collision with the wall Function." />
+    <MESSAGE value="Get the snake to extend when eating food" />
+    <option name="LAST_COMMIT_MESSAGE" value="Get the snake to extend when eating food" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
