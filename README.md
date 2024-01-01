@@ -1,5 +1,6 @@
 <h1>Python Snake Game 🐍 </h1>
-
+![snake_game_image1.png](snake_game_image1.png)
+![snake_game_image2.png](snake_game_image2.png)
 <h2> Description</h2>
 
 

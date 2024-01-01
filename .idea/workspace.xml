@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bd13045-b561-4caa-892b-67c596440fd8" name="Changes" comment="Update readme file">
+    <list default="true" id="5bd13045-b561-4caa-892b-67c596440fd8" name="Changes" comment="Refactoring code.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food.py" beforeDir="false" afterPath="$PROJECT_DIR$/food.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoreboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/scoreboard.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snake.py" beforeDir="false" afterPath="$PROJECT_DIR$/snake.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +212,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704060423717</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Refactoring code.">
+      <option name="closed" value="true" />
+      <created>1704060940986</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1704060940986</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -255,6 +260,7 @@
     <MESSAGE value="Add collision with snake tail function" />
     <MESSAGE value="Refactoring code to use python slicing." />
     <MESSAGE value="Update readme file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update readme file" />
+    <MESSAGE value="Refactoring code." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring code." />
   </component>
 </project>
