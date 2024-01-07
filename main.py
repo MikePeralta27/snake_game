@@ -1,16 +1,54 @@
-# This is a sample Python script.
-
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+from turtle import Screen
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
+from snake import Snake
+from food import Food
+from scoreboard import Scoreboard
+import time
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+screen = Screen()
+screen.setup(width=600, height=600)
+screen.bgcolor("black")
+screen.title(titlestring="My Snake Game")
+screen.tracer(n=0)
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+snake = Snake()
+food = Food()
+scoreboard = Scoreboard()
+
+
+screen.listen()
+screen.onkey(snake.up, "Up")
+screen.onkey(snake.down, "Down")
+screen.onkey(snake.left, "Left")
+screen.onkey(snake.right, "Right")
+
+
+game_is_on = True
+count = 0
+while game_is_on:
+    screen.update()
+    time.sleep(0.1)
+    snake.move()
+
+    # collision with food
+    if snake.head.distance(food) < 15:
+        food.refresh()
+        snake.extend()
+        scoreboard.increase_score()
+
+    # Detect collision with wall
+    if snake.head.xcor() > 280 or snake.head.xcor() < -280 or snake.head.ycor() > 280 or snake.head.ycor() < -280:
+        print("Game Over")
+        scoreboard.game_over()
+        game_is_on = False
+
+    # Detect collision with tail
+    for segment in snake.segments[1:]:
+        if snake.head.distance(segment) < 5:
+            game_is_on = False
+            scoreboard.game_over()
+
+screen.exitonclick()
